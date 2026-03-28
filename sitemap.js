@@ -1,14 +1,8 @@
 /*Sitemap js code */
 
 SalesforceInteractions.init({
-  cookieDomain: "northerntrailoutfitters.com",
-  consents: [
-    {
-      purpose: SalesforceInteractions.mcis.ConsentPurpose.Personalization,
-      provider: "Example Consent Manager",
-      status: SalesforceInteractions.ConsentStatus.OptIn,
-    },
-  ],
+  cookieDomain: "dcompileracademy.com"
+ 
 }).then(() => {
   const sitemapConfig = {
     global: {
